@@ -1,0 +1,4 @@
+D:\Workspace\gitlab.surdata.com\PptWebAddIn\PptWebAddIn\obj\Debug\PptWebAddIn.csprojAssemblyReference.cache
+D:\Workspace\gitlab.surdata.com\PptWebAddIn\PptWebAddIn\obj\Debug\PptWebAddIn.csproj.CoreCompileInputs.cache
+D:\VSProject\上海八度\PptWebAddIn\PptWebAddIn\obj\Debug\PptWebAddIn.csprojAssemblyReference.cache
+D:\VSProject\上海八度\PptWebAddIn\PptWebAddIn\obj\Debug\PptWebAddIn.csproj.CoreCompileInputs.cache

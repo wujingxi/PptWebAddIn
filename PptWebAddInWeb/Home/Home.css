@@ -1,0 +1,157 @@
+﻿/* 特定于页面的样式 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.bit-wrap {
+    /*position: relative;
+    margin: 100px auto;*/
+    width: 100%;
+    height: 100%;
+}
+
+.bit-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background: rgba(54,141,243,.1);*/
+    width: 100%;
+    height: 100%;
+    /*padding: 15px;*/
+}
+
+.bit-logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+    .bit-logo img {
+        height: 40px;
+    }
+
+.bit-content {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+    .bit-content h3 {
+        font-size: 24px;
+        color: #368df3;
+        font-weight: normal;
+        margin: 0;
+        margin-bottom: 30px;
+        /*font-family: 'Microsoft YaHei';*/
+        font-family: 'Segoe UI Light WestEuropean','Segoe UI Light','Segoe UI',Tahoma,Arial,sans-serif;
+    }
+
+.bit-txt p {
+    font-size: 14px;
+    color: #666666;
+    margin: 0px;
+    margin-bottom: 10px;
+    /*font-family: 'Microsoft YaHei';*/
+    font-family: 'Segoe UI Light WestEuropean','Segoe UI Light','Segoe UI',Tahoma,Arial,sans-serif;
+}
+
+.bit-link {
+    position: relative;
+    width: 400px;
+    height: 32px;
+}
+
+    .bit-link input {
+        border: 1px solid #d2d2d2;
+        background: rgba(255,255,255,.6);
+        padding: 0 10px;
+        width: 100%;
+        box-sizing: border-box;
+        height: 32px;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    }
+
+        .bit-link input:focus {
+            border: 1px solid #368df3;
+            outline: none;
+        }
+
+.close-btn {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    cursor: pointer;
+}
+
+    .close-btn img {
+        width: 15px;
+        height: 15px;
+    }
+
+.bit-btn a {
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 90px;
+    line-height: 32px;
+    text-align: center;
+    background: #368df3;
+    color: #fff;
+    text-decoration: none;
+}
+
+.fail-tips {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fcf0e7;
+    /*padding: 0 20px;*/
+    line-height: 50px;
+    color: #ee8237;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+    .fail-tips .close-btn {
+        /*top: 0px;*/
+    }
+
+    .fail-tips img {
+        width: 20px;
+        height: 20px;
+    }
+
+.bit-usebtn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #368df3;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+    .bit-usebtn img {
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+    }
+
+.bit-wrap iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}

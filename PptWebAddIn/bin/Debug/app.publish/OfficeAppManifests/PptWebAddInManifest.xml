@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Published:70EDFC97-B41D-43C5-B751-7C00AD999804-->
+<!--Created:ce44715c-8c4e-446b-879c-ea9ebe0f09c8-->
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xsi:type="ContentApp">
+
+  <!-- 开始基本设置：外接程序元数据，用于所有版本的 Office（除非提供重写）。 -->
+
+  <!-- 重要事项！ID 对于外接程序必须是唯一的，如果重复使用该清单，请确保将此 ID 改为新的 GUID。 -->
+  <Id>8ba8e9eb-a895-4011-ab65-c7880be5468a</Id>
+
+  <!--版本。来自应用商店的更新只有在版本变化时才会被触发。 -->
+  <Version>1.0.0.0</Version>
+  <ProviderName>[智能BI工具]</ProviderName>
+  <DefaultLocale>zh-CN</DefaultLocale>
+  <!-- 外接程序的显示名称。在应用商店中使用，出现在外接程序对话框等 Office UI 中。 -->
+  <DisplayName DefaultValue="BITools图表工具" />
+  <Description DefaultValue="BITools图表：使用BIT，只需4步即可实现数据分析和报表制作，支持各种格式数据，在线编辑处理数据表完美接入Excel、CSV及Mysql等各类动态数据库" />
+  <!-- 外接程序的图标。用于安装屏幕和外接程序对话框中。 -->
+  <IconUrl DefaultValue="https://ppt.super.com.cn/Images/Button32x32.png" />
+  <HighResolutionIconUrl DefaultValue="https://ppt.super.com.cn/Images/Button64x64.png" />
+
+  <SupportUrl DefaultValue="https://www.bitools.cn/introduce.html" />
+  <AppDomains>
+    <AppDomain>https://www.bitools.cn</AppDomain>
+    <AppDomain>https://ppt.super.com.cn</AppDomain>
+    <AppDomain>http://www.bitools.cn</AppDomain>
+  </AppDomains>
+  <Hosts>
+    <Host Name="Presentation" />
+  </Hosts>
+  <!-- 导航时允许使用的域。例如，如果使用 ShowTaskpane，然后得到一个 href 链接，则只有在此列表上存在该域时，才允许导航。 -->
+  <!--结束基本设置。 -->
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://ppt.super.com.cn/home/home.html" />
+    <RequestedWidth>550</RequestedWidth>
+    <RequestedHeight>320</RequestedHeight>
+  </DefaultSettings>
+
+  <Permissions>ReadWriteDocument</Permissions>
+
+</OfficeApp>

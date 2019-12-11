@@ -1,0 +1,7 @@
+False
+e6d02f56-5883-4479-b983-8bbed6cbfb5d8a3d2e7f-fee5-482a-9428-c2386edbf44e
+{303d34cf-ad79-43f0-b48b-1fee47196d21}{019e71c8-3126-4608-bbe5-3ec8dcc6d16f}
+{61cae63e-9a7f-42f4-be8a-162d4ed90e32}
+1.0.0.0
+PptWebAddIn
+_layouts/15/

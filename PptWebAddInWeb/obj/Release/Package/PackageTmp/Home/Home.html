@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title></title>
+    <script src="../Scripts/jquery-1.9.1.js" type="text/javascript"></script>
+    <!--<script src="../Scripts/FabricUI/MessageBanner.js" type="text/javascript"></script>-->
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
+
+    <!-- 要允许使用 Office.js 的本地引用进行脱机调试，请使用: -->
+    <!-- <script src="../Scripts/Office/MicrosoftAjax.js" type="text/javascript"></script>  -->
+    <!-- <script src="../Scripts/Office/1/office.js" type="text/javascript"></script>  -->
+
+    <link href="Home.css" rel="stylesheet" type="text/css" />
+    <script src="Home.js" type="text/javascript"></script>
+    
+    <!-- 对于 Office UI Fabric，请转至 https://aka.ms/office-ui-fabric 了解详细信息。 -->
+    <!--<link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/2.1.0/fabric.min.css">
+    <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/2.1.0/fabric.components.min.css">-->
+    
+    <!-- 要离线使用 Office UI Fabric，请使用: -->
+    <!--<link rel="stylesheet" href="../Content/fabric.min.css" />
+    <link rel="stylesheet" href="../Content/fabric.components.min.css"/>-->
+
+</head>
+<body>
+    <div class="bit-wrap">
+        <div class="bit-main">
+            <div class="bit-logo"><img src="../Images/logo.png"></div>
+            <div class="bit-usebtn"><a href="http://www.bitools.cn/introduce.html" target="_blank"><img src="../Images/use.png">使用说明</a></div>
+            <div class="bit-content">
+                <h3>添加BIT动态图表</h3>
+                <div class="bit-txt">
+                    <p>在线分享链接(或使用默认样例链接)：</p>
+                    <div class="bit-link">
+                        <input type="text" placeholder="" id="txtLink" value="http://www.bitools.cn/app/#/preview/0f94981f-fc7a-1bfd-1a308-1bfd1a30856">
+                    </div>
+                    <div class="bit-btn">
+                        <a href="javascript:void(0);" id="btnGoto">加载</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fail-tips" style="display:none;">
+                <div class="msg-fail-content">无效的地址链接，请重新输入</div>
+                <span class="close-btn"><img id="btnClose" src="../Images/close.png"></span>
+            </div>
+        </div>
+        <iframe src="about:blank" id="forTxtLink" frameborder="0" style="display:none;"></iframe>
+    </div>
+    <!--<div class="ms-MessageBanner" style="position:absolute;bottom: 0;display:none;">
+        <div class="ms-MessageBanner-content">
+            <div class="ms-MessageBanner-text">
+                <div class="ms-MessageBanner-clipper">
+                    <div class="ms-font-m-plus ms-fontWeight-semibold" id="notificationHeader"></div>
+                    <div class="ms-font-m ms-fontWeight-semilight" id="notificationBody"></div>
+                </div>
+            </div>
+            <button class="ms-MessageBanner-expand" style="display:none"><i class="ms-Icon ms-Icon--chevronsDown"></i> </button>
+            <div class="ms-MessageBanner-action"></div>
+        </div>
+        <button class="ms-MessageBanner-close"> <i class="ms-Icon ms-Icon--x"></i> </button>
+    </div>-->
+
+</body>
+</html>
