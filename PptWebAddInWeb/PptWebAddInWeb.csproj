@@ -68,6 +68,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bundles\css\bootstrap.css" />
     <Content Include="Content\fabric.components.css" />
     <Content Include="Content\fabric.components.min.css" />
     <Content Include="Content\fabric.components.rtl.css" />
@@ -111,9 +112,13 @@
     <Content Include="Content\sass\Fabric.Animations.Output.scss" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="bundles\css\webpage.css" />
+    <Content Include="Home\index.js" />
     <Content Include="Home\Home.css" />
     <Content Include="Home\Home.html" />
     <Content Include="Home\Home.js" />
+    <Content Include="Home\index.html" />
+    <Content Include="Images\logo-y.png" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\use.png" />
     <Content Include="Images\Button32x32.png" />
@@ -399,7 +404,9 @@
     <Content Include="Scripts\Office\metadata\endpoints.xml" />
     <Content Include="Scripts\Office\metadata\features.xml" />
     <Content Include="Scripts\Office\MicrosoftAjax.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -413,6 +420,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

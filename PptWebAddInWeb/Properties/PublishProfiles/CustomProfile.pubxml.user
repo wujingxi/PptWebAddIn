@@ -13,10 +13,10 @@
       <publishTime>05/24/2018 13:38:22</publishTime>
     </File>
     <File Include="bin/PptWebAddInWeb.dll">
-      <publishTime>11/15/2019 10:25:17</publishTime>
+      <publishTime>12/28/2019 09:59:20</publishTime>
     </File>
     <File Include="bin/PptWebAddInWeb.pdb">
-      <publishTime>11/15/2019 10:25:17</publishTime>
+      <publishTime>12/28/2019 09:59:20</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>05/24/2018 13:38:22</publishTime>
@@ -156,6 +156,27 @@
     <File Include="bin/roslyn/VBCSCompiler.exe.config">
       <publishTime>05/24/2018 13:38:24</publishTime>
     </File>
+    <File Include="bundles/css/bootstrap.css">
+      <publishTime>12/25/2019 14:28:01</publishTime>
+    </File>
+    <File Include="bundles/css/webpage.css">
+      <publishTime>12/25/2019 16:52:45</publishTime>
+    </File>
+    <File Include="bundles/js/bootstrap.js">
+      <publishTime>12/12/2019 15:08:46</publishTime>
+    </File>
+    <File Include="bundles/js/knockout.js">
+      <publishTime>12/12/2019 15:08:29</publishTime>
+    </File>
+    <File Include="bundles/js/labs.js">
+      <publishTime>12/12/2019 15:46:59</publishTime>
+    </File>
+    <File Include="bundles/js/localestrings.js">
+      <publishTime>12/12/2019 15:42:13</publishTime>
+    </File>
+    <File Include="bundles/js/webpage.js">
+      <publishTime>12/12/2019 15:30:51</publishTime>
+    </File>
     <File Include="Content/fabric.components.css">
       <publishTime>10/19/2019 15:23:03</publishTime>
     </File>
@@ -172,7 +193,7 @@
       <publishTime>10/19/2019 15:23:03</publishTime>
     </File>
     <File Include="Content/fabric.min.css">
-      <publishTime>10/19/2019 15:23:03</publishTime>
+      <publishTime>12/09/2019 17:01:28</publishTime>
     </File>
     <File Include="Content/fabric.rtl.css">
       <publishTime>10/19/2019 15:23:02</publishTime>
@@ -283,13 +304,22 @@
       <publishTime>10/19/2019 15:23:01</publishTime>
     </File>
     <File Include="Home/Home.css">
-      <publishTime>11/01/2019 17:58:30</publishTime>
+      <publishTime>12/10/2019 11:02:24</publishTime>
     </File>
     <File Include="Home/Home.html">
-      <publishTime>11/01/2019 19:58:27</publishTime>
+      <publishTime>12/10/2019 11:02:41</publishTime>
     </File>
     <File Include="Home/Home.js">
       <publishTime>11/01/2019 17:54:41</publishTime>
+    </File>
+    <File Include="Home/index.html">
+      <publishTime>12/25/2019 17:33:44</publishTime>
+    </File>
+    <File Include="Home/index.js">
+      <publishTime>12/28/2019 09:56:59</publishTime>
+    </File>
+    <File Include="Home/NewHome.html">
+      <publishTime>12/12/2019 15:12:34</publishTime>
     </File>
     <File Include="Images/Button32x32.png">
       <publishTime>11/01/2019 11:40:08</publishTime>
@@ -299,6 +329,9 @@
     </File>
     <File Include="Images/close.png">
       <publishTime>11/01/2019 16:04:55</publishTime>
+    </File>
+    <File Include="Images/logo-y.png">
+      <publishTime>12/19/2019 11:41:01</publishTime>
     </File>
     <File Include="Images/logo.png">
       <publishTime>10/31/2019 20:08:17</publishTime>
@@ -1138,7 +1171,7 @@
       <publishTime>10/19/2019 15:23:08</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/12/2019 17:44:06</publishTime>
+      <publishTime>12/25/2019 10:46:16</publishTime>
     </File>
   </ItemGroup>
 </Project>

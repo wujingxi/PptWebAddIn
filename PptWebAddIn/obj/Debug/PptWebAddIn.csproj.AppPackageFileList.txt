@@ -1,2 +1,2 @@
 bin\Debug\app.publish\OfficeAppManifests\PptWebAddInManifest.xml
-D:\VSProject\上海八度\PptWebAddIn\PptWebAddIn\bin\Debug\app.publish\PptWebAddIn.app
+D:\Workspace\github.com\PptWebAddIn\PptWebAddIn\bin\Debug\app.publish\PptWebAddIn.app
